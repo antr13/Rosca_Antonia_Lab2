@@ -17,5 +17,7 @@ namespace Rosca_Antonia_Lab2.Data
         public DbSet<Rosca_Antonia_Lab2.Models.Book> Book { get; set; } = default!;
 
         public DbSet<Rosca_Antonia_Lab2.Models.Publisher> Publisher { get; set; }
+
+        public DbSet<Rosca_Antonia_Lab2.Models.Category> Category { get; set; }
     }
 }
